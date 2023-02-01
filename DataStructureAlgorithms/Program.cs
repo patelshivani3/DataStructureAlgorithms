@@ -10,11 +10,12 @@ namespace DataStructureAlgorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nEnter the String for Permutation : ");
-            string s = Console.ReadLine();
-            Console.WriteLine("\nPossible Strings Are : ");
-            int n = s.Length;
-            Permutation.PermutationOfString(s, 0, n - 1);
+            //Console.WriteLine("\nEnter the String for Permutation : ");
+            //string s = Console.ReadLine();
+            //Console.WriteLine("\nPossible Strings Are : ");
+            //int n = s.Length;
+            //Permutation.PermutationOfString(s, 0, n - 1);
+            BinarySort.BinarySearch();
 
             Console.ReadLine();
         }
