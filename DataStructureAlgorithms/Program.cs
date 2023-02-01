@@ -10,7 +10,7 @@ namespace DataStructureAlgorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n1.Permutation\n2.Binary Sort\n3.Insertion Sort");
+            Console.WriteLine("\n1.Permutation\n2.Binary Sort\n3.Insertion Sort\n4.Bubble Sort");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -28,7 +28,11 @@ namespace DataStructureAlgorithms
 
                 case 3:
                     InsertionSort.Insertion();
-                    break; 
+                    break;
+                    
+                case 4:
+                    BubbleSort.BubbleSortMethod();
+                    break;
                 default:
                     Console.WriteLine("\nChoose From Given Options Only...");
                     break;
